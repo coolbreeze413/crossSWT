@@ -2,6 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="gui/swt-linux64-4.4.jar" sourcepath="gui/swt-linux64-4.4_DOCU.zip"/>
+	<classpathentry kind="lib" path="lib/swt-win64-4.7.1a.jar" sourcepath="lib/src-swt-win64-4.7.1a.zip"/>
+	<classpathentry kind="lib" path="res"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

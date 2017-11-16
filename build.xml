@@ -1,14 +1,20 @@
 <?xml version="1.0"?>
 <project name="crossSWT">
-<taskdef name="swtjar" classname="org.swtjar.ant.SWTJarTask" classpath="./gui/swtjar.jar"/>
+<taskdef name="swtjar" classname="org.swtjar.ant.SWTJarTask" classpath="./lib/swtjar.jar"/>
 
         <!-- Package cross platform SWT Jar -->
-        <swtjar jarfile="./jars/crossSWT.jar" targetmainclass="Main" swtversion="4.4">
+        <swtjar jarfile="./jars/crossSWT.jar" targetmainclass="ApplicationLauncher" swtversion="4.7.1a">
 
                   <!-- Application Classes -->
                   <fileset dir="./bin/" includes="**/*.class" />
   
                   <!-- SWT Jars -->
-                  <fileset dir="./gui" includes="swt-*-4.4.jar" />
+                  <fileset dir="./lib" includes="swt-*-4.7.1a.jar" />
+        	
+            	  <!-- Images -->
+        	<!-- <fileset dir="./images/" includes="**/*.jpg" /> -->
+        	
+        	      <!-- Images Dir -->
+        		  <zipfileset dir="./res/images" prefix="images"/>
         </swtjar>
 </project>

@@ -1,0 +1,27 @@
+JAVA SWT
+
+tutorials/guides:
+https://code.google.com/archive/a/eclipselabs.org/p/timeme/wikis/SWT.wiki
+http://www.vogella.com/tutorials/SWT/article.html
+http://www.vogella.com/tutorials/SWTCustomWidget/article.html
+
+cross platform swt using swtjar ant build script:
+https://coffeeorientedprogramming.wordpress.com/tag/cross-platform-2/
+https://stackoverflow.com/questions/2706222/create-cross-platform-java-swt-application/3204032#3204032
+https://github.com/mchr3k/swtjar --> forked at: https://github.com/coolbreeze413/swtjar
+http://mchr3k.github.io/swtjar/
+http://mchr3k.github.io/swtjar/osxapp.html
+https://github.com/coolbreeze413/crossSWT
+
+cross platform swt with maven:
+https://github.com/raisercostin/eclipse-jarinjarloader
+https://github.com/jendap/multiplatform-swt
+
+examples:
+https://www.eclipse.org/swt/snippets/
+https://howtodoinjava.com/swt/how-to-create-splash-window-using-java-swt/
+http://o7planning.org/en/11319/java-swt-tabfolder-and-ctabfolder-tutorial
+https://github.com/mittman/timeme
+
+template that we maintain for SWT, forked from https://github.com/LeoUfimtsev/crossSWT:
+https://github.com/coolbreeze413/crossSWT
